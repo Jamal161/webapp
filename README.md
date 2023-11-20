@@ -49,8 +49,7 @@ GET  http://localhost:3000/users HTTP/1.1
 
 ###
 
-POST  https://cs-twitter-clone-backend.herokuapp.com/users HTTP/1.1
-content-type: application/json
+POST  
 
 {"name": "John Doe", "handle": "@johnDoe", "email": "john_doe@twitter.com"}
 
@@ -96,11 +95,6 @@ PATCH   http://localhost:3000/users/6113dc26306ad96bcd30b251/retweet HTTP/1.1
 content-type: application/json
 
 {"retweetId": "6113de87306ad96bcd30b50b"}
-
-###
-
-
-GET  https://full-stack-twitter-clone-backend-i2smrx00x-cihat.vercel.app/users HTTP/1.1
 
 ###
 ```
